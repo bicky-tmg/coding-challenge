@@ -1,6 +1,13 @@
-import { Card, CardBody, CardHead, Tab } from "@/components";
+import {
+  Button,
+  Card,
+  CardBody,
+  CardFooter,
+  CardHead,
+  Tab,
+} from "@/components";
 import TabSwitcher from "@/context/TabSwitcher";
-import { CardIconOne } from "@/icons/icons";
+import { CardIconOne, DownArrow } from "@/icons/icons";
 
 export default function Home() {
   return (
@@ -19,11 +26,18 @@ export default function Home() {
                 <h4 className="text-lg leading-6 font-semibold">Card Title</h4>
                 <CardIconOne />
               </CardHead>
-              <CardBody className="mx-6 mb-[10px]">
+              <CardBody className="mx-6 mb-4">
                 <p className="text-base font-medium leading-normal">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </p>
               </CardBody>
+              <CardFooter>
+                <Button font="filled" border="filled" active="filled">
+                  <span className="flex items-center gap-4">
+                    Discover <DownArrow />
+                  </span>
+                </Button>
+              </CardFooter>
             </Card>
           </Tab>
         </TabSwitcher>
