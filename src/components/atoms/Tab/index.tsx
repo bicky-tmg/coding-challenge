@@ -9,5 +9,13 @@ interface TabProps {
 
 export const Tab = ({ value, children }: TabProps) => {
   const { setActiveTabValue } = useTab();
-  return <div>{children}</div>;
+  return (
+    <div
+      onClick={() => {
+        setActiveTabValue(value);
+      }}
+    >
+      {children}
+    </div>
+  );
 };

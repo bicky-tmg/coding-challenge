@@ -2,15 +2,11 @@ import React from "react";
 import { VariantProps, tv } from "tailwind-variants";
 
 const button = tv({
-  base: "px-4 py-6 font-medium bg-tertiary",
+  base: "font-medium bg-tertiary",
   variants: {
-    font: {
-      filled: "text-base",
-      cta: "text-lg font-semibold leading-6",
-    },
-    border: {
-      filled: "rounded-tr-[32px] rounded-bl-lg",
-      cta: "rounded-full border border-solid",
+    type: {
+      filled: "text-base rounded-tr-[32px] rounded-bl-lg py-6 px-4",
+      cta: "text-lg font-semibold leading-6 rounded-full border-[3px] border-solid py-5 px-11 bg-secondary",
     },
     active: {
       filled:
