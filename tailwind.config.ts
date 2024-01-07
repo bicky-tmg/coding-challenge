@@ -27,6 +27,7 @@ const config: Config = withTV({
       secondary: "#F15A29",
       tertiary: "#EBECF5",
       shadow: "#3C479D",
+      gray: "#CCCCCC",
     },
     extend: {
       fontFamily: {
