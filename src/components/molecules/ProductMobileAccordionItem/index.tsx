@@ -44,7 +44,7 @@ export const ProductionMobileAccordionItem = ({
       triggerElement={
         <div className="relative">
           <AccordionTrigger
-            className={`py-6 px-8 relative bg-white flex gap-4 items-center cursor-pointer text-md leading-[25.2px] font-medium ${
+            className={`py-6 pl-8 pr-10 relative bg-white flex gap-4 items-center cursor-pointer text-md leading-[25.2px] font-medium ${
               isActive
                 ? "rounded-t-2xl"
                 : "rounded-2xl after:absolute after:bg-primary-50 after:top-[10px] after:left-0 after:w-full after:h-full after:inline-block after:z-[-20] after:rounded-b-2xl"
