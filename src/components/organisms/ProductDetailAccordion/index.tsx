@@ -25,7 +25,7 @@ export const ProductDetailAccordion = ({
   const isActive = activeValue === value;
   return (
     <AccordionItem
-      className="pb-6 border-b border-solid"
+      className="pb-6 border-b border-solid overflow-hidden"
       triggerElement={
         <div className="relative">
           <AccordionTrigger
@@ -34,14 +34,25 @@ export const ProductDetailAccordion = ({
             icon={icon}
             handleClick={() => toggleValue(value)}
           />
-          <span className="absolute top-1/2 right-0 translate-y-[-50%]">
+          <span
+            className={`absolute top-1/2 right-0 translate-y-[-50%] transform origin-center transition duration-200 ease-out ${
+              isActive ? "rotate-180" : "rotate-0"
+            }`}
+          >
             <AccordionDownIcon />
           </span>
         </div>
       }
     >
-      <AccordionContent className="mt-6" isActive={isActive}>
-        {description}
+      <AccordionContent
+        className={`grid overflow-hidden transition-all duration-300 ease-in-out ${
+          isActive
+            ? "grid-rows-[1fr] opacity-100 mt-6"
+            : "grid-rows-[0fr] opacity-0 mt-0"
+        }`}
+        isActive={isActive}
+      >
+        <div className="overflow-hidden">{description}</div>
       </AccordionContent>
     </AccordionItem>
   );

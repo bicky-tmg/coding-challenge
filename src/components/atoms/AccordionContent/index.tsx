@@ -11,5 +11,5 @@ export const AccordionContent = ({
   className,
   isActive,
 }: AccordionContentProps) => {
-  return <>{isActive ? <div className={className}>{children}</div> : null}</>;
+  return <div className={className}>{children}</div>;
 };
