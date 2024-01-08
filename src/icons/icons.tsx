@@ -124,3 +124,100 @@ export const CardIconFour = () => (
     />
   </svg>
 );
+
+export const AccordionIconOne = () => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="33"
+    height="33"
+    viewBox="0 0 33 33"
+    fill="none"
+  >
+    <rect
+      x="3.70001"
+      y="1.87244"
+      width="12"
+      height="28.8"
+      rx="4"
+      fill="#FFD540"
+    />
+    <rect x="8.5" y="13.0725" width="12" height="17.6" rx="4" fill="#FFE58C" />
+    <path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M15.5 13.0725V26.6727C15.5 28.7122 13.9736 30.3953 12.0008 30.6417C10.0272 30.396 8.5 28.7126 8.5 26.6725V17.0725C8.5 14.8634 10.2909 13.0725 12.5 13.0725H15.5Z"
+      fill="#50B848"
+    />
+    <circle cx="24.5" cy="25.0724" r="5.6" fill="#FFF6D8" />
+  </svg>
+);
+
+export const AccordionIconTwo = () => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="33"
+    height="33"
+    viewBox="0 0 33 33"
+    fill="none"
+  >
+    <circle cx="20.5601" cy="19.4605" r="11.2121" fill="#FFD540" />
+    <circle cx="10.6928" cy="10.4908" r="9.41818" fill="#FFE58C" />
+    <path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M10.6936 19.9089C15.8951 19.9089 20.1117 15.6923 20.1117 10.4908C20.1117 9.72601 20.0206 8.98254 19.8486 8.27063C13.9882 8.63807 9.34882 13.5075 9.34882 19.4605C9.34882 19.5789 9.35065 19.6969 9.3543 19.8145C9.79175 19.8767 10.2389 19.9089 10.6936 19.9089Z"
+      fill="#50B848"
+    />
+  </svg>
+);
+
+export const AccordionIconThree = () => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="33"
+    height="33"
+    viewBox="0 0 33 33"
+    fill="none"
+  >
+    <rect
+      x="2.8996"
+      y="1.87231"
+      width="18.4"
+      height="23.2"
+      rx="4"
+      fill="#FFD540"
+    />
+    <rect
+      x="12.4996"
+      y="13.0723"
+      width="16.8"
+      height="17.6"
+      rx="4"
+      fill="#FFE58C"
+    />
+    <path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M21.2996 13.0723V21.0725C21.2996 23.2816 19.5087 25.0725 17.2996 25.0725H12.4996V17.0723C12.4996 14.8631 14.2904 13.0723 16.4996 13.0723H21.2996Z"
+      fill="#50B848"
+    />
+  </svg>
+);
+
+export const AccordionDownIcon = () => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="13"
+    height="8"
+    viewBox="0 0 13 8"
+    fill="none"
+  >
+    <path
+      d="M11.5 1.77246L6.5 6.77246L1.5 1.77246"
+      stroke="black"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+  </svg>
+);

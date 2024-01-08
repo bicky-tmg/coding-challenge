@@ -4,3 +4,6 @@ export * from "./CardFooter";
 export * from "./Tab";
 export * from "./Button";
 export * from "./TabPane";
+export * from "./AccordionItem";
+export * from "./AccordionContent";
+export * from "./AccordionTrigger";
