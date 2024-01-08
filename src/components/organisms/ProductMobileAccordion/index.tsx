@@ -1,9 +1,5 @@
 import { ProductionMobileAccordionItem } from "@/components";
-import {
-  MOBILE_ACCORDION_DATA,
-  TAB_BUTTON_DATA,
-  TAB_DETAILS_DATA,
-} from "@/constant/tabSwitcherData";
+import { MOBILE_ACCORDION_DATA } from "@/constant/tabSwitcherData";
 import Accordion from "@/context/Accordion";
 import React from "react";
 

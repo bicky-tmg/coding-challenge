@@ -65,7 +65,6 @@ export const ProductionMobileAccordionItem = ({
             ? "grid-rows-[1fr] opacity-100 mt-[-10px] "
             : "grid-rows-[0fr] opacity-0 mt-[10px]"
         }`}
-        isActive={isActive}
       >
         <div className="overflow-hidden">
           <Card className="pt-8 px-8 pb-10 lg:py-12 lg:px-16 bg-primary-50 rounded-2xl lg:rounded-[40px]">

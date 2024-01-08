@@ -50,7 +50,6 @@ export const ProductDetailAccordion = ({
             ? "grid-rows-[1fr] opacity-100 mt-6"
             : "grid-rows-[0fr] opacity-0 mt-0"
         }`}
-        isActive={isActive}
       >
         <div className="overflow-hidden">{description}</div>
       </AccordionContent>
