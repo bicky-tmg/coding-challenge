@@ -72,10 +72,10 @@ export const ProductionMobileAccordionItem = ({
               <div className="flex flex-col gap-12 lg:w-1/2 w-full">
                 <div className="flex flex-col gap-6">
                   <h1 className="text-2xl lg:text-4xl text- font-semibold leading-[57.6px]">
-                    {tab.title}
+                    {tabDetail.title}
                   </h1>
                   <p className="text-lg lg:text-xl font-normal leading-[31.2px]">
-                    {tab.description}
+                    {tabDetail.description}
                   </p>
                 </div>
                 <div className="hidden lg:block">
