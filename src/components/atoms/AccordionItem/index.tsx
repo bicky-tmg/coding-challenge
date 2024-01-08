@@ -4,7 +4,7 @@ import { AccordionDownIcon } from "@/icons/icons";
 interface AccordionItemProps {
   children: React.ReactNode;
   className?: string;
-  triggerElement: React.ReactNode;
+  triggerElement?: React.ReactNode;
 }
 
 export const AccordionItem = ({

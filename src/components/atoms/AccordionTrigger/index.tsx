@@ -5,6 +5,7 @@ interface AccordionTriggerProps {
   handleClick: () => void;
   className?: string;
   icon?: React.ReactNode;
+  children?: React.ReactNode;
 }
 
 export const AccordionTrigger = ({
@@ -12,11 +13,13 @@ export const AccordionTrigger = ({
   handleClick,
   className,
   icon,
+  children,
 }: AccordionTriggerProps) => {
   return (
     <div className={className} onClick={handleClick}>
-      {icon}
+      <span>{icon}</span>
       <p>{title}</p>
+      {children}
     </div>
   );
 };

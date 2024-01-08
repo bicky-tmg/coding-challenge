@@ -29,7 +29,7 @@ export const ProductDetailAccordion = ({
       triggerElement={
         <div className="relative">
           <AccordionTrigger
-            className="flex gap-4 items-center cursor-pointer"
+            className="flex gap-4 items-center cursor-pointer text-md leading-[25.2px] font-medium"
             title={title}
             icon={icon}
             handleClick={() => toggleValue(value)}
