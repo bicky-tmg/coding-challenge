@@ -8,10 +8,10 @@ export const ProductMobileAccordion = () => {
     <Accordion defaultValue="tab1">
       {MOBILE_ACCORDION_DATA.map((accordionData) => {
         const tab = {
-          title: accordionData.title,
           value: accordionData.value,
-          icon: accordionData.icon,
+          title: accordionData.title,
           description: accordionData.description,
+          icon: accordionData.icon,
         };
         return (
           <ProductionMobileAccordionItem
